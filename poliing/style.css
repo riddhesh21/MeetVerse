@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.poll-container {
+    margin: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    display: inline-block;
+}
+
+.poll-container label, #options-container label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.option {
+    margin: 5px 0;
+}
+
+#add-option {
+    margin: 10px 0;
+}
+
+.poll-results {
+    margin: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    display: block;
+}
+
+.poll-results h2 {
+    margin-bottom: 10px;
+}
+
+.bar {
+    height: 20px;
+    border-radius: 3px;
+    margin: 5px 0;
+    background: linear-gradient(90deg, #33ff33, #ffa933);
+}
+
+.bar-label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.vote-count {
+    font-size: 14px;
+    color: #555;
+}
